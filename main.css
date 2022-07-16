@@ -64,3 +64,8 @@ h2 {
 .photo:hover {
   border: 5px solid #FFD700;
 }
+
+button{
+  background-color: #6A5ACD;
+  color: #E6E6FA;
+}
