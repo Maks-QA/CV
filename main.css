@@ -4,7 +4,7 @@ color: indigo;}
 
 body {
   font-family: Roboto, sans-serif;
-  background-image: url(bg.jpg);
+  background-image: url(bg4.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -21,7 +21,7 @@ body {
 a {
   display: block;
   text-decoration:none;
-  margin-bottom: 1.2em;
+  margin-bottom: 0.3em;
   position: relative;
   color: mediumblue;
 }
@@ -41,13 +41,13 @@ a::after {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   color: darkblue;
 }
 
 h2 {
   font-size: 1.5em;
-  margin: 1.25em 0;
+  margin: 0.7em 0;
 }
 
   /* Свойства фотографии*/
