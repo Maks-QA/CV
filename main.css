@@ -31,14 +31,6 @@ a:hover {
   color:#228B22;
 }
 
-  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
-a::after {
-  content: '';
-  display: ruby;
-  transform: translateY(1.5em);
-  border-bottom: 1px solid #dadada;
-  width: 300px;
-}
 
 h1 {
   font-size: 1.8em;
@@ -48,6 +40,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   margin: 0.7em 0;
+  color: navy;
 }
 
   /* Свойства фотографии*/
@@ -65,7 +58,16 @@ h2 {
   border: 5px solid #FFD700;
 }
 
-button{
+li {
+  display:inline-block;
+  padding: 3px; /* Поля вокруг кнопок */
+}
+
+.contacts {
+  margin-bottom: 20px;
+}
+
+button {
   background-color: #6A5ACD;
   color: #E6E6FA;
 }
