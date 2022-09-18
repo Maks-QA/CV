@@ -41,33 +41,51 @@ h2 {
   font-size: 1.5em;
   margin: 0.7em 0;
   color: navy;
+  margin-top: 35px;
 }
+
 
   /* Свойства фотографии*/
 .photo {
-  border-radius: 250px;
-  /* Радиус скругления */
-  border: 3px solid transparent;
-  /* Параметры рамки */
+  border-radius: 250px;  /* Радиус скругления */
+  border: 3px solid transparent;  /* Параметры рамки */
   box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
   object-fit: cover;
 }
 
-  /* Эффект наведения на картинку */
+  /* Эффект наведения на фотографию */
 .photo:hover {
   border: 5px solid #FFD700;
 }
 
 li {
-  display:inline-block;
+  display:inline-block; /* расположение в линию */
   padding: 3px; /* Поля вокруг кнопок */
 }
 
+
+/* Свойства круглых иконок контактов*/
+.photo2 {
+  border-radius: 80px; /* Радиус скругления */
+  border: 1px solid transparent;  /* Параметры рамки */
+  box-shadow: 0 2px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+.photo2:hover {
+  border: 2px solid #228B22;
+}
+
 .contacts {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 button {
   background-color: #6A5ACD;
   color: #E6E6FA;
+  border: 2px solid #1E90FF;
+}
+
+button:hover {
+  border: 2px solid #FFD700;
 }
